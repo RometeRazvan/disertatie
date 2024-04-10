@@ -1,0 +1,256 @@
+{
+  "div": [
+    {
+      "_attributes": {
+        "class": ["popup-container", "asdasd", "asd3", "asd2"]
+      },
+      "div": [
+        {
+          "_attributes": {
+            "id": "popup",
+            "accesskey": [],
+            "class": ["popup-main"]
+          },
+          "div": [
+            {
+              "_attributes": {
+                "class": ["popup-heading"]
+              },
+              "h2": [
+                {
+                  "_value": "What kind of Experience do you want to share?"
+                }
+              ],
+              "div": [
+                {
+                  "_attributes": {
+                    "class": ["close-icon", "share-experience-modal-close"]
+                  }
+                }
+              ]
+            },
+            {
+              "_attributes": {
+                "class": ["experience-card"]
+              },
+              "a": [
+                {
+                  "_attributes": {
+                    "class": ["exp-card5"],
+                    "href": "https://write.geeksforgeeks.org/posts-new?cid=e8fc46fe-75e7-4a4b-be3c-0c862d655ed0",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon5"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon5-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card5-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Interview Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "class": ["exp-card1"],
+                    "href": "https://write.geeksforgeeks.org/posts-new?cid=82536bdb-84e6-4661-87c3-e77c3ac04ede",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon1"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon1-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card1-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Admission Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "class": ["exp-card6"],
+                    "href": "https://write.geeksforgeeks.org/posts-new?cid=fbed2543-6e40-4f77-b460-e962cc55c315",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon6"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon6-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card6-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Engineering Exam Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "class": ["exp-card2"],
+                    "href": "https://write.geeksforgeeks.org/posts-new?cid=22ae3354-15b6-4dd4-a5b4-5c7a105b8a8f",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon2"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon2-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card2-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Work Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "class": ["exp-card3"],
+                    "href": "https://write.geeksforgeeks.org/posts-new?cid=c5e1ac90-9490-440a-a5fa-6180c87ab8ae",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon3"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon3-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card3-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Campus Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_attributes": {
+                    "class": ["exp-card4"],
+                    "href": "https://write.geeksforgeeks.org/#experiences",
+                    "target": "_blank"
+                  },
+                  "div": [
+                    {
+                      "_attributes": {
+                        "class": ["icon4"]
+                      },
+                      "div": [
+                        {
+                          "_attributes": {
+                            "class": ["icon4-image"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_attributes": {
+                        "class": ["exp-card4-text"]
+                      },
+                      "span": [
+                        {
+                          "_attributes": {
+                            "style": "color: #000;"
+                          },
+                          "_value": "Add Other Experiences"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "_value": "<span class=\"description\"style=\"color: #BEBEC2;\">Tell us your type of experiences which can help other fellow Geeks for their future events and preparations.</span>"
+        },
+        {
+          "_attributes": {
+            "id": "overlay",
+            "onclick": "toggleExperiencePopup()",
+            "style": "display: block;min-height: 100vh;min-width: 100vw;position: fixed;top: 0;bottom: 0;right: 0;left: 0;display: none;justify-content: center;align-items: center;background: rgba(0,0,0,.702);z-index: 1025 !important;backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);word-break: keep-all;"
+          }
+        }
+      ]
+    }
+  ]
+}
