@@ -2,7 +2,7 @@ import json
 
 def calc_universality():
         
-    results = []
+    results = {}
     files = ['bootstrap', 'materialize', 'tailwind', 'tailwind-all']
     
     for file_name in files:
@@ -10,17 +10,13 @@ def calc_universality():
         with open('../../css-parser/parsed/' + file_name + '.json', 'r') as file:
             css = json.load(file)
         
-        with open('config/config.json', 'r') as file:
+        with open('../config/config.json', 'r') as file:
             config = json.load(file)
 
         combinators = config['combinators']    
         
         lst = []
         for key, value in css.items():
-
-            value = value.split('\n')
-            for i in range(len(value)):
-                value[i] = value[i].strip()
 
             for combinator in combinators:
                 if combinator != ' ':
@@ -43,7 +39,7 @@ def calc_universality():
         with open('data/refined_css/' + file_name + '.json', 'w') as file:
             json.dump(lst, file)
 
-        results.append({file_name: calculate_universality(file_name)})
+        results[file_name] = calculate_universality(file_name)
 
     with open('data/universality_results.json', 'w') as file:
         json.dump(results, file)

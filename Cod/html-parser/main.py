@@ -8,9 +8,13 @@ def extract_html(main_folder, folder, lst = []):
     for file in os.listdir(pathToProjects + main_folder + '/' + folder):
 
         if file.endswith('.html'):
-            with open(f'{pathToProjects + main_folder}/{folder}/{file}', 'r') as f:
-                va = f.read()
-                lst.append(va)
+            with open(f'{pathToProjects + main_folder}/{folder}/{file}', 'r', encoding='utf-8') as f:
+                try:
+                    # print(f'{pathToProjects + main_folder}/{folder}/{file}')
+                    va = f.read()
+                    lst.append(va)
+                except:
+                    print(f)
 
         elif os.path.isdir(f'{pathToProjects + main_folder}/{folder}/{file}'):
             extract_html(main_folder, f'{folder}/{file}', lst)
@@ -37,7 +41,7 @@ def read_folder(main_folder):
         json.dump(dc, file)
 
 if __name__ == '__main__':
-    folders = ['bootstrap']#, 'materialize', 'tailwind']
+    folders = ['bootstrap', 'materialize', 'tailwind']
 
     for folder in folders:
         read_folder(folder)
