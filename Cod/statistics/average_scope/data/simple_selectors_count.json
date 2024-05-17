@@ -1,1 +1,6 @@
-{"bootstrap": 58, "materialize": 50, "tailwind": 51, "tailwind-all": 51}
+{
+    "bootstrap": 27,
+    "materialize": 26,
+    "tailwind": 13,
+    "tailwind-all": 13
+}
