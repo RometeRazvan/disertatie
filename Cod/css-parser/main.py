@@ -1,4 +1,7 @@
 
+import json
+
+
 def parse(file_name):
     import cssutils
 
@@ -30,7 +33,9 @@ def parse(file_name):
     
     print("Parsing completed for " + file_name + "!\n")
 
-if __name__ == "__main__":
+
+def parser_menu():
+    
     menu = """
     -=-=-=-=- CSS Parser -=-=-=-=-
     0. Parse Bootstrap CSS to JSON
@@ -54,3 +59,15 @@ if __name__ == "__main__":
         parse(files[choice])
 
     print("\nParsing completed!\nCheck the JSON files in the same directory.\nThank you!\n")
+
+
+if __name__ == "__main__":
+    # parser_menu()
+    files = ['bootstrap.json', 'materialize.json', 'tailwind.json', 'tailwind-all.json']
+
+    for file in files:
+        with open('./parsed/' + file, 'r') as f:
+            css = json.load(f)
+
+            # print the number of keys in the dictionary
+            print(len(css.keys()), sum([len(v) for v in css.values()]))

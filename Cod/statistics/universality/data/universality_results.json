@@ -1,6 +1,30 @@
 {
-  "bootstrap": 6.58071447757185,
-  "materialize": 20.77853761178327,
-  "tailwind": 7.15642045164908,
-  "tailwind-all": 7.1178023946465485
+  "bootstrap": {
+    "HTML": 245,
+    "Other": 3478,
+    "Total": 3723,
+    "Percentage": 6.58071447757185,
+    "NotHidden": 0
+  },
+  "materialize": {
+    "HTML": 790,
+    "Other": 3012,
+    "Total": 3802,
+    "Percentage": 20.77853761178327,
+    "NotHidden": 0
+  },
+  "tailwind": {
+    "HTML": 11231,
+    "Other": 145705,
+    "Total": 156936,
+    "Percentage": 7.15642045164908,
+    "NotHidden": 11144
+  },
+  "tailwind-all": {
+    "HTML": 44663,
+    "Other": 582820,
+    "Total": 627483,
+    "Percentage": 7.1178023946465485,
+    "NotHidden": 44576
+  }
 }

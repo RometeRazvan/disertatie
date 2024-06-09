@@ -1,0 +1,20 @@
+{
+  "bootstrap": {
+    "total_projects": 44,
+    "total_pages": 1454,
+    "used_projects": 44,
+    "used_pages": 1459
+  },
+  "materialize": {
+    "total_projects": 34,
+    "total_pages": 176,
+    "used_projects": 34,
+    "used_pages": 176
+  },
+  "tailwind": {
+    "total_projects": 35,
+    "total_pages": 765,
+    "used_projects": 20,
+    "used_pages": 688
+  }
+}
